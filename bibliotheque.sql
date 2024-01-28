@@ -22,3 +22,33 @@ INSERT INTO `livres`(`id`,`nom`,`prix`,`auteur`) VALUES
 (8,'Recoudre les blessures',19.98,'Elodie Alain'),
 (9,'La tresse',7.90,'Laetitia COLOMBANI'),
 (10,'Enferme depuis tout petit',14.90,'Marry Yohson');
+
+
+ALTER TABLE livres MODIFY genre VARCHAR(255) NOT NULL;
+UPDATE livres SET genre = 'Roman' where id = 1;
+UPDATE livres SET genre = 'Roman' where id = 2;
+UPDATE livres SET genre = 'Roman' where id = 3;
+UPDATE livres SET genre = 'Roman' where id = 4;
+UPDATE livres SET genre = 'Roman' where id = 5;
+UPDATE livres SET genre = 'Drame' where id = 6;
+UPDATE livres SET genre = 'Science' where id = 8;
+UPDATE livres SET genre = 'Roman' where id = 9;
+UPDATE livres SET genre = 'Roman' where id = 10;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
